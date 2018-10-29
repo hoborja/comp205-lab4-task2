@@ -1,0 +1,12 @@
+p {
+    color: blue;
+}
+
+p.large-text {
+    font-size: 30px;
+}
+
+.custom-div h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
