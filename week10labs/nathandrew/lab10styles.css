@@ -1,0 +1,23 @@
+h1, h2, p {
+    font-family: 'Georgia';
+}
+
+.main h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.main h2 {
+    font-size: 18px;
+    color: blue;
+}
+
+.main p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.main #special {
+    text-align: left;
+    color: #42f468;
+}

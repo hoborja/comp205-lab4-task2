@@ -1,0 +1,25 @@
+div {
+    width: 100%;
+    height: 300px;
+}
+
+.div1 {
+    background-color: grey;
+}
+
+.div2 {
+    background-image: url('div2bkg.jpg');
+}
+
+.div3, .div4 {
+    position: absolute; left: 0px; top: 600px;
+}
+
+.div3 {
+    background-image: url('div3bkg.jpg');
+}
+
+.div4 {
+    background-color: red;
+    opacity: 0.3;
+}
