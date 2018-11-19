@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1250px;
+    background-color: black;
+}
+.menu h1 {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+.menu {
+    z-index: 99;
+    background-color: rgba(72, 255, 0, 0.5);
+    position: fixed;
+    width: 100%;
+}
+
+.big-box {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.small-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+    background-color: red;
+    width: 250px;
+    position: absolute;
+    top: 275px;
+    left: 175px;
+}
+
+.small-box p, a {
+    overflow: auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+.small-box p {
+    margin: auto;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+}
+.small-box a {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
